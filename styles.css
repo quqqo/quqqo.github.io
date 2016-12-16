@@ -8,14 +8,14 @@
 
 #PP {
 	text-align: center;
-	font-size: 5em;	
+	font-size: 10em;	
 }
 
 .pic {
   display:block;
   margin-left:auto;
   margin-right:auto;
-	width: 15em;
+	width: 25em;
 }
 
 font-family: 'Sacramento', cursive;
