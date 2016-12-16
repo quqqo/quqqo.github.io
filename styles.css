@@ -11,6 +11,13 @@
 	font-size: 5em;	
 }
 
+.pic {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+	width: 15em;
+}
+
 font-family: 'Sacramento', cursive;
 font-family: 'Rochester', cursive;
 font-family: 'Petit Formal Script', cursive;
