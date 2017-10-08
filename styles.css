@@ -1,22 +1,104 @@
-#tausta {
-	background: #FFAACC;
+body {
+	background: #FFFFFF;
+	background-image: url("PP-site.png");
 }
 
-#tekstii {
-	margin-top: -3%;
+
+
+h1 {
+	margin: 1em auto;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 8em;
+	font-weight: 700;
+	text-align: center;
 }
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 4em;
+	font-weight: 400;
+	text-align: center;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: center;
+}
+
+footer {
+	height: 10em;
+}
+
+#heading-box {
+	height: 30em;
+}
+
+#heading-container {
+}
+
 
 #PP {
 	text-align: center;
 	font-size: 10em;	
 }
 
+#video-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#video-ratiobox {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+#video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#text-box{
+	margin: 0 auto;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
+#text-container{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#ig-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
 .pic {
-  display:block;
-  margin: -5%;
-  margin-left:auto;
-  margin-right:auto;
-	width: 30em;
+	height: 100px;
+}
+
+.flex-test {
+	display: flex;           /* establish flex container */
+    flex-direction: row;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 300px;
 }
 
 font-family: 'Sacramento', cursive;
